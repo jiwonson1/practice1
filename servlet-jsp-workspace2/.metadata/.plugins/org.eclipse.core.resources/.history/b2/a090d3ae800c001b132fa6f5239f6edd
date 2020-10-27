@@ -1,0 +1,21 @@
+package com.kh.member.model.service;
+
+import java.sql.Connection;
+
+import com.kh.member.model.dao.MemberDao;
+
+import static com.kh.common.JDBCTemplate.getConnection;
+
+public class MemberService {
+	
+	public void loginMember(String userId, String userPwd) {
+		
+		Connection conn = /*JDBCTemplate.*/getConnection();
+		
+		new MemberDao().loginMember(conn, userId, userPwd);
+		
+		
+		
+	}
+
+}

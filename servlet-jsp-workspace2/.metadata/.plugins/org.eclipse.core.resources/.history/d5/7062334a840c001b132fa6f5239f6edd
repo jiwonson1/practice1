@@ -1,0 +1,2 @@
+#member-mapper.properties
+loginMember=SELECT * FROM MEMBER WHERE USER_ID = ? AND USER_PWD = ? AND STATUS = 'Y'

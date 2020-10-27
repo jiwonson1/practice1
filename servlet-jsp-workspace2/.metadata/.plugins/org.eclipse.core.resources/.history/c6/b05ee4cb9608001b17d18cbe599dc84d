@@ -1,0 +1,15 @@
+package com.kh.common;
+
+public class JDBCTemplate {
+	
+	//모든메소드들 static
+	
+	//1. Connection 객체 생성(DB접속)한 후 해당 생성된 Connection반환해주는 getConnection메소드
+	
+	//2. Connecion객체 전달 받아서 commit해주는 commit메소드
+	
+	//3. Connection객체 전달 받아서 rollback해주는 rollback메소드
+	
+	//4. 
+
+}

@@ -1,0 +1,38 @@
+package com.kh.member.model.dao;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.util.Properties;
+
+public class MemberDao {
+	
+	private Properties prop = new Properties();
+	
+	public MemberDao() {
+		
+		String fileName = MemberDao.class.getResource("/sql/member/member-mapper.properties").getPath();
+		
+		try {
+			prop.load(new FileInputStream(fileName));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	public void loginMember(Connection conn, String userId, String userPwd) {
+		// select문 => 한 행 => Member
+		
+		// 필요한 변수를 먼저 셋팅
+		Member m = null;
+		
+		
+		
+		
+	}
+	
+
+}

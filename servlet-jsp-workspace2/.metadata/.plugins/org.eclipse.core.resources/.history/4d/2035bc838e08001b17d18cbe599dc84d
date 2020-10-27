@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- 
+	
+		1. 회원 서비스
+		
+					|  C(INSERT)	| R(SELECT) | U(UPDATE) | D(DELETE)
+		=======================================================
+			로그인	|				|	O		|			|
+			회원가입
+			[아이디중복체크]
+			마이페이지
+			정보수정
+			회원탈퇴
+			
+			
+		
+		2. 공지사항 서비스
+		
+		3. 일반게시판 서비스
+		
+		4. 사진게시판 서비스
+	
+	 -->
+</body>
+</html>

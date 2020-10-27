@@ -1,0 +1,6 @@
+package com.kh.member.model.vo;
+
+// 처음에 vo 설계할 때 Table과 매칭
+public class Member {
+
+}

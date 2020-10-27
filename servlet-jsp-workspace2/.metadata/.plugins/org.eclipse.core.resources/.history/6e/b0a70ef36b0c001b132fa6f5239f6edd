@@ -1,0 +1,20 @@
+package com.kh.member.model.dao;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class MemberDao {
+	
+	private Properties prop = new Properties();
+	
+	public MemberDao() {
+		
+		String fileName = MemberDao.class.getResource("/")
+		
+		prop.load(new FileInputStream(읽어들이고자하는 파일경로));
+		
+		
+	}
+	
+
+}

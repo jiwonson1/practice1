@@ -1,0 +1,15 @@
+package com.kh.member.model.service;
+
+import java.sql.Connection;
+
+import static com.kh.common.JDBCTemplate.*;
+
+public class MemberService {
+	
+	public void loginMember(String userId, String userPwd) {
+		
+		Connection conn = /*JDBCTemplate.*/getConnection();
+		
+	}
+
+}
